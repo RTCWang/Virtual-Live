@@ -1,0 +1,34 @@
+<html> 
+<head>
+    <link href="index.css" type="text/css" rel="stylesheet"/> 
+    <script src="./express_sdk/ZegoExpressWebRTC.js"></script> 
+    <script src="./js/tokenUtils.js"></script> 
+    <script src="./js/zego.js"></script>
+    <script src="./js/keycenter.js"></script>
+
+</head>
+
+<body>  
+     <div class="toast_box">
+        <p id="toast"></p>
+    </div>
+    <div class="loginPanel">
+        <div class="formRow">
+            <label id="loginErrorMsg"></label> 
+        </div>
+        <div class="formRow">
+            <label>userId</label>
+            <input type="text" id="userId" value="User_0001"/>
+        </div>
+        <div class="formRow">
+            <label>房间号</label>
+            <input type="text" id="roomId" value="R_0001"/>
+        </div>
+        <button id="loginBtn">登录</button>
+    </div>
+
+    <div id="playVideo"></div> 
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
